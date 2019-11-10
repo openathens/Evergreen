@@ -1940,7 +1940,9 @@ INSERT INTO permission.perm_list ( id, code, description ) VALUES
  ( 622, 'VIEW_BOOKING_RESOURCE', oils_i18n_gettext(622,
     'View booking resources', 'ppl', 'description')),
  ( 623, 'UPDATE_ORG_UNIT_SETTING.opac.matomo', oils_i18n_gettext(623,
-    'Allows a user to configure Matomo Analytics org unit settings', 'ppl', 'description'))
+    'Allows a user to configure Matomo Analytics org unit settings', 'ppl', 'description')),
+ ( 624, 'ADMIN_OPENATHENS', oils_i18n_gettext(624,
+    'Allow a user to administer OpenAthens authentication service', 'ppl', 'description'))
 ;
 
 
